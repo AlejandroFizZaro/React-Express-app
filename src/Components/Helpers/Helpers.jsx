@@ -214,6 +214,7 @@ export async function doesTheUserIdFromTeacherExists(userId){
             await getAllUsers().then((users) => {
                 const user = (users.filter( (element) =>  (element.id) == userId))[0];
                 const userExists = (user != undefined);
+                console.log(userExists);
 
                 return userExists;
             })

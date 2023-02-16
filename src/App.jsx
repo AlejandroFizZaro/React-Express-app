@@ -47,7 +47,7 @@ const router = createBrowserRouter(
           loader: protecredRouteLoader,
           children:
           [
-            // This index path is the main path with no contacts selected. it will load a default page
+            // This index path is the main path with no users selected. it will load a default page
             { index: true, element: <Index />}, 
             {
               path: '/layout/profile',
@@ -91,6 +91,8 @@ const router = createBrowserRouter(
               path: `/layout/signup`,
               element: <Signup />,
               loader: signupLoader,
+
+              // children are needed in this exercise for Outlets ( The way to display websites inside a window )
               children:
               [
                 {

@@ -18,7 +18,7 @@ export async function action ({ request, params }) {
     :
         await isTeacherDuplicate(email, dni).then((res) => res.isDuplicate)
         ? result.message = 'The teacher is already registered in the system'
-        : await doesTheUserIdFromTeacherExists(userId).then((res) => !(res.userExists))
+        : await doesTheUserIdFromTeacherExists(userId).then((res) => (res.userExists === false))
             ? result.message = 'The user id does not exists'
             : await getTeacherByUserIdFromParams (userId).then((res) => res != undefined )
                 ? result.message = 'The user id is assigned to other teacher'
