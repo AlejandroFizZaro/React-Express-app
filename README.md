@@ -4,22 +4,28 @@ In order to set this app properly, We need to run the framework that manage the 
 
 First: Booting the backend
 
-1. in the main project folder, type in the console
+  In the main project folder, type in the console
 
-cd src/express_project
+    cd src/express_project
 
-npm install
+    npm install
 
-npm run start-services
+    npm run start-services
 
-npm run start dev
+    npm run start dev
+    
+  Note: You can restore the default values in the user (Users, Teachers and Students) database by typing the following command lines:
+  	
+	npm run unseed
+	
+	npm run seed
 
 Second: Booting the Frontend
-1. If you are located in the console, go to the main project folder and type:
+  1. If you are located in the console, go to the main project folder and type:
 
-npm install
+    npm install
 
-npm run dev
+    npm run dev
 
 
 
