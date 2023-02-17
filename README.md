@@ -8,7 +8,7 @@ the token is created and the user can access to the main page.
 The main page has access to the Users and Students. That change according to the role from the logged user:
 	
 	+ Admin role ( can see Users and Students ) { email: "user1@veridas.com", password: 1234 }
-	+ Teacher role ( csn see Students ) { email: "user2@veridas.com", password: 5678 }
+	+ Teacher role ( can see Students ) { email: "user2@veridas.com", password: 5678 }
 
 The Users / Students that appear on the layout are displayed by data that is loaded in the backend ( Express.js ). Because of
 that, is required to initialize the backend before the frontend. I will show the steps now!
