@@ -6,6 +6,7 @@ Once the user is logged in correctly (i.e. credentials: { email: "user1@veridas.
 the token is created and the user can access to the main page.
 
 The main page has access to the Users and Students. That change according to the role from the logged user:
+	
 	+ Admin role ( can see Users and Students ) { email: "user1@veridas.com", password: 1234 }
 	+ Teacher role ( csn see Students ) { email: "user2@veridas.com", password: 5678 }
 
