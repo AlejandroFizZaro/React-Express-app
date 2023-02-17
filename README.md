@@ -1,4 +1,6 @@
-# React-Express-app
+## React-Express-app
+
+# INTRODUCTION
 
 This Software has a functional login page, based on Token Storage that expires 15 minutes after logging in.
 
@@ -22,8 +24,9 @@ The main page has access to the Users and Students. That change according to the
 The Users / Students that appear on the layout are displayed by data that is loaded in the backend ( Express.js ). Because of
 that, is required to initialize the backend before the frontend. I will show the steps now!
 
+# STARTING THE APP
 
-In order to set this app properly, We need to run the framework that manage the frontend (ViteJS):
+In order to start this app properly, We need to run the framework that manage the frontend (ViteJS):
 
 First: Booting the backend
 
@@ -49,6 +52,9 @@ Second: Booting the Frontend
     npm install
 
     npm run dev
+    
+    
+ The console will display the url to connect and start interacting with the app
 
 
 
