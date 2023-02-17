@@ -37,7 +37,7 @@ First: Booting the backend
 
     npm run start dev
     
-  Note: You can restore the default values in the user (Users, Teachers and Students) database by typing the following command lines:
+  Note: You can restore the default values in the Users, Teachers and Students database by typing the following command lines:
   	
 	npm run unseed
 	
