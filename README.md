@@ -54,7 +54,7 @@ Second: Booting the Frontend
     npm run dev
     
     
- The console will display the url to connect and start interacting with the app
+ The console will display the url to connect so you can start interacting with the app
 
 
 
