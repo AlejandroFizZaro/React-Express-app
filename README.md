@@ -26,7 +26,7 @@ that, is required to initialize the backend before the frontend. I will show the
 
 # STARTING THE APP
 
-In order to start this app properly, We need to run the framework that manage the frontend (ViteJS):
+In order to start this app properly, We need to run the following by order:
 
 First: Booting the backend
 
