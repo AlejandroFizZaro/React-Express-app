@@ -2,7 +2,7 @@
 
 # INTRODUCTION
 
-This Software has a functional login page, based on Token Storage that expires 15 minutes after logging in.
+This React project has a functional login page, based on Token Storage that expires 15 minutes after logging in.
 
 Once the user is logged in correctly (i.e. credentials: { email: "user1@veridas.com", password: 1234 } ), 
 the token is created and the user can access to the main page.
